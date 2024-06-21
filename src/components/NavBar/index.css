@@ -1,0 +1,39 @@
+.bg-nav-con {
+  background-color: #9796f0;
+  display: flex;
+  color: #ffffff;
+  justify-content: space-between;
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nav-con {
+  display: flex;
+  justify-content: space-around;
+}
+.score {
+  margin-right: 20px;
+}
+
+@media (max-width: 576px) {
+  .bg-nav-con {
+    background-color: #9796f0;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .score {
+    margin-right: 10px;
+  }
+  .logo-img {
+    height: 30px;
+    width: 40px;
+  }
+  .nav-head {
+    font-size: 10px;
+  }
+}
